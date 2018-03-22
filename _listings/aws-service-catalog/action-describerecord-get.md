@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeRecord&k=1:
+  /?Action=DescribeRecord:
     get:
       summary: ' Describe Record '
       description: Retrieves a paginated list of the full details of a specific request
