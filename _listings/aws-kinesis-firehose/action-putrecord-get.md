@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutRecord&k=1:
+  /?Action=PutRecord:
     get:
       summary: ' Put Record '
       description: writes a single data record into an Amazon Kinesis Firehose delivery
