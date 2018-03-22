@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutRecordBatch&k=1:
+  /?Action=PutRecordBatch:
     get:
       summary: ' Put Record Batch '
       description: |-
