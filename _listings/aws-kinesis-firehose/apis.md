@@ -23,9 +23,9 @@ tags:
 - Database
 - Data
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/records/master/_listings/aws-kinesis-firehose/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-kinesis-firehose/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Kinesis Firehose API
@@ -37,7 +37,7 @@ apis:
   tags: Records
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/records/master/_listings/aws-kinesis-firehose/action-putrecordbatch-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-kinesis-firehose/action-putrecord-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/firehose/
