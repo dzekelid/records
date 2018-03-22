@@ -25,9 +25,9 @@ tags:
 - Messaging
 - Getting Started
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/records/master/_listings/twilio/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/twilio/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Twilio
@@ -41,7 +41,7 @@ apis:
   tags: Records
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/records/master/_listings/twilio/accounts-accountsid-usage-records-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/twilio/accounts-accountsid-usage-records-subresource-get.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
