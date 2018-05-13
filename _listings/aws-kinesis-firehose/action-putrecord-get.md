@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Kinesis Firehose API
+  title: AWS Kinesis Firehose API Put Record
   version: 1.0.0
+  description: writes a single data record into an Amazon Kinesis Firehose delivery
+    stream.
 schemes:
 - http
 produces:
