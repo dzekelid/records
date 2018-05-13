@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS X-Ray API
+  title: AWS X-Ray API Put Telemetry Records
   version: 1.0.0
+  description: Used by the AWS X-Ray daemon to upload telemetry.
 schemes:
 - http
 produces:
