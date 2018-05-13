@@ -29,7 +29,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-service-catalog/action-describerecord-get.md
+- name: AWS Service Catalog API Describe Record
+  description: Retrieves a paginated list of the full details of a specific request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: http:://{host}//
+  tags: Records
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-service-catalog/action-describerecord-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/servicecatalog/latest/dg/service-catalog-api-overview.html
+- type: x-faq
+  url: https://aws.amazon.com/servicecatalog/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/servicecatalog/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/servicecatalog/pricing/
+- type: x-website
+  url: https://aws.amazon.com/servicecatalog/
 - type: x-documentation
   url: http://docs.aws.amazon.com/servicecatalog/latest/dg/service-catalog-api-overview.html
 - type: x-faq
