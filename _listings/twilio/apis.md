@@ -42,17 +42,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/twilio/accounts-accountsid-usage-records-get.md
-- name: Twilio Get Account Usage Record Sub Resource
-  description: Returns UsageRecords for all usage categories for a specified period.n
+- name: Twilio Get Account Usage Record
+  description: Returns UsageRecords for all usage categories. The list includes pagingninformation.nBy
+    default, the UsageRecords resource will return one UsageRecord forneach Category,
+    representing all usage accrued all-time for the account.nYou can filter the usage
+    Category or change the date-range over which usagenis counted using optional GET
+    query parameters.n
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Records
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/twilio/accounts-accountsid-usage-records-subresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/twilio/accounts-accountsid-usage-records-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/twilio/accounts-accountsid-usage-records-subresource-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/twilio/accounts-accountsid-usage-records-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
