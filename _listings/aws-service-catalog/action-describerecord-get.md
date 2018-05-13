@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Service Catalog API
+  title: AWS Service Catalog API Describe Record
   version: 1.0.0
+  description: Retrieves a paginated list of the full details of a specific request.
 schemes:
 - http
 produces:
