@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Kinesis Firehose API
+  title: AWS Kinesis Firehose API Put Record Batch
   version: 1.0.0
+  description: |-
+    writes multiple data records into a delivery stream in a single call, which can
+             achieve higher throughput per producer than when writing single records.
 schemes:
 - http
 produces:
