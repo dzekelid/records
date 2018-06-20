@@ -1,24 +1,21 @@
 ---
 name: CloudFlare
 x-slug: cloudflare
-description: CloudFlare, Inc. is a U.S. company that provides a content delivery network
-  and distributed domain name server services, sitting between the visitor and the
-  CloudFlare users hosting provider, acting as a reverse proxy for websites. Its network
-  protects, speeds up, and improves availability for a website or mobile application
-  with a change in DNS.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+description: Here at Cloudflare, we make the Internet work the way it should. Offering
+  CDN, DNS, DDoS protection and security, find out how we can help your site.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "1685"
 tags: Records
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/cloudflare/apis.md
 specificationVersion: "0.14"
 apis:
 - name: CloudFlare List, search, sort, and filter a zones&#39; DNS records
   x-api-slug: cloudflare
   description: List, search, sort, and filter a zones&#39; DNS records
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https://///zones/:zone_identifier/dns_records
   tags: Records
@@ -30,7 +27,7 @@ apis:
 - name: CloudFlare Create a new DNS record for a zone
   x-api-slug: cloudflare
   description: Create a new DNS record for a zone
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https://///zones/:zone_identifier/dns_records
   tags: Records
@@ -42,7 +39,7 @@ apis:
 - name: 'CloudFlare Delete DNS record permission needed: #dns_records:edit'
   x-api-slug: cloudflare
   description: 'Delete DNS record permission needed: #dns_records:editntt'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https://///zones/:zone_identifier/dns_records/:identifier
   tags: Records
@@ -54,7 +51,7 @@ apis:
 - name: 'CloudFlare DNS record details permission needed: #dns_records:read'
   x-api-slug: cloudflare
   description: 'DNS record details permission needed: #dns_records:readntt'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https://///zones/:zone_identifier/dns_records/:identifier
   tags: Records
@@ -66,7 +63,7 @@ apis:
 - name: 'CloudFlare Update DNS record permission needed: #dns_records:edit'
   x-api-slug: cloudflare
   description: 'Update DNS record permission needed: #dns_records:editntt'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https://///zones/:zone_identifier/dns_records/:identifier
   tags: Records
@@ -77,12 +74,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/cloudflare/zoneszone-identifierdns-recordsidentifier-put-openapi.md
 - name: CloudFlare
   x-api-slug: cloudflare
-  description: CloudFlare, Inc. is a U.S. company that provides a content delivery
-    network and distributed domain name server services, sitting between the visitor
-    and the CloudFlare users hosting provider, acting as a reverse proxy for websites.
-    Its network protects, speeds up, and improves availability for a website or mobile
-    application with a change in DNS.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  description: Here at Cloudflare, we make the Internet work the way it should. Offering
+    CDN, DNS, DDoS protection and security, find out how we can help your site.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
   humanURL: https://www.cloudflare.com
   baseURL: https:///
   tags: Records
@@ -94,6 +88,8 @@ x-common:
   url: https://blog.cloudflare.com/
 - type: x-blog-rss
   url: http://blog.cloudflare.com/rss/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/cloudflare
 - type: x-developer
   url: https://www.cloudflare.com/docs/client-api.html
 - type: x-github
@@ -114,6 +110,8 @@ x-common:
   url: https://twitter.com/CloudFlare
 - type: x-website
   url: https://www.cloudflare.com
+- type: x-website
+  url: http://cloudflare.com
 include: []
 maintainers:
 - FN: Kin Lane
