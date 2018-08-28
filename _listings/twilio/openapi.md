@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Twilio
 x-complete: 1
@@ -16,25 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /Accounts/{AccountSid}/Usage/Records/{Subresource}:
-    get:
-      summary: Get Account Usage Record Sub Resource
-      description: Returns UsageRecords for all usage categories for a specified period.n
-      operationId: returns-usagerecords-for-all-usage-categories-for-a-specified-period
-      x-api-path-slug: accountsaccountsidusagerecordssubresource-get
-      parameters:
-      - in: path
-        name: AccountSid
-        description: The ID for the Twilio account
-      - in: path
-        name: Subresource
-        description: '|Subresource|Description|n|---|---|n|Daily|Return multiple UsageRecords
-          for each usage category, each representing usage over a daily time-interval'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Usage Records
   /Accounts/{AccountSid}/Usage/Records:
     get:
       summary: Get Account Usage Record
@@ -54,4 +34,22 @@ paths:
           description: OK
       tags:
       - Usage Records
----
+  /Accounts/{AccountSid}/Usage/Records/{Subresource}:
+    get:
+      summary: Get Account Usage Record Sub Resource
+      description: Returns UsageRecords for all usage categories for a specified period.n
+      operationId: returns-usagerecords-for-all-usage-categories-for-a-specified-period
+      x-api-path-slug: accountsaccountsidusagerecordssubresource-get
+      parameters:
+      - in: path
+        name: AccountSid
+        description: The ID for the Twilio account
+      - in: path
+        name: Subresource
+        description: '|Subresource|Description|n|---|---|n|Daily|Return multiple UsageRecords
+          for each usage category, each representing usage over a daily time-interval'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Usage Records

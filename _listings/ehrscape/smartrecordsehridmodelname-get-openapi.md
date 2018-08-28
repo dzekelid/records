@@ -6,14 +6,14 @@ info:
   title: Ehr Scape Electronic Health Record APIs Returns SMART records for a patient.
   description: Returns smart records for a patient..
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /rest/v1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /rest/v1
 paths:
   /smart/records/{ehrId}/{modelName}:
     get:

@@ -7,14 +7,14 @@ info:
     a patient.
   description: Returns specific smart record for a patient..
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /rest/v1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /rest/v1
 paths:
   /smart/records/{ehrId}/{modelName}:
     get:

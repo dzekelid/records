@@ -15,57 +15,46 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Records
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-cognito/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Cognito API List Records
-  x-api-slug: aws-cognito-api
+- name: AWS Cognito Merged API - List Records
+  x-api-slug: actionlistrecords-get
   description: Gets paginated records, optionally changed after a particular sync
     count for a dataset and identity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
-  baseURL: https://///?Action=ListRecords
-  tags: Records
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-cognito/actionlistrecords-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-cognito/actionlistrecords-get-openapi.md
-- name: AWS Cognito API Update Records
-  x-api-slug: aws-cognito-api
+- name: AWS Cognito Merged API - Update Records
+  x-api-slug: actionupdaterecords-get
   description: Posts updates to records and adds and deletes records for a dataset
     and user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
   humanURL: https://aws.amazon.com/cognito/
-  baseURL: https://///?Action=UpdateRecords
-  tags: Records
+  baseURL: https:///
+  tags: Amazon Web Services, Authentication, Social, Facebook, Twitter, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-cognito/actionupdaterecords-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-cognito/actionupdaterecords-get-openapi.md
-- name: AWS Cognito API
-  x-api-slug: aws-cognito-api
-  description: Amazon Cognito lets you easily add user sign-up and sign-in to your
-    mobile and web apps. With Amazon Cognito, you also have the options to authenticate
-    users through social identity providers such as Facebook, Twitter, or Amazon,
-    with SAML identity solutions, or by using your own identity system. In addition,
-    Amazon Cognito enables you to save data locally on users devices, allowing your
-    applications to work even when the devices are offline. You can then synchronize
-    data across users devices so that their app experience remains consistent regardless
-    of the device they use. With Amazon Cognito, you can focus on creating great app
-    experiences instead of worrying about building, securing, and scaling a solution
-    to handle user management, authentication, and sync across devices.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png
-  humanURL: https://aws.amazon.com/cognito/
-  baseURL: https:///
-  tags: Records
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/aws-cognito/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.codedeploy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cognito.stack.network
 - type: x-blog
   url: https://aws.amazon.com/cognito/dev-resources/#blogposts
 - type: x-documentation

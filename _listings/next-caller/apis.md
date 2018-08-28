@@ -8,47 +8,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2468-next-
 x-kinRank: "8"
 x-alexaRank: "3612031"
 tags: Records
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/next-caller/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Next Caller Parameters Version Records
-  x-api-slug: next-caller
+- name: Next Caller - Parameters Version Records
+  x-api-slug: versionrecords-parameters
   description: Parameters version records.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2468-next-caller.jpg
   humanURL: https://nextcaller.com
-  baseURL: https://api.sandbox.nextcaller.com////{version}/records/
-  tags: Version,Records
+  baseURL: https://api.sandbox.nextcaller.com//
+  tags: Telephony, Caller ID, Target, Stack Network, SaaS, Technology, Enterprise,
+    Telecommunications, API Provider, Telecommunications, Messages, Profiles, Service
+    API, Relative Data, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/next-caller/versionrecords-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/next-caller/versionrecords-parameters-openapi.md
-- name: Next Caller Get Version Records
-  x-api-slug: next-caller
+- name: Next Caller - Get Version Records
+  x-api-slug: versionrecords-get
   description: Returns Nextcaller member detailed info.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2468-next-caller.jpg
   humanURL: https://nextcaller.com
-  baseURL: https://api.sandbox.nextcaller.com////{version}/records/
-  tags: Version,Records
+  baseURL: https://api.sandbox.nextcaller.com//
+  tags: Telephony, Caller ID, Target, Stack Network, SaaS, Technology, Enterprise,
+    Telecommunications, API Provider, Telecommunications, Messages, Profiles, Service
+    API, Relative Data, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/next-caller/versionrecords-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/next-caller/versionrecords-get-openapi.md
-- name: Next Caller
-  x-api-slug: next-caller
-  description: Next Caller&rsquo;s RESTful API is designed to allow your business
-    the ability to identify unknown callers with our Advanced Caller ID&trade; service.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2468-next-caller.jpg
-  humanURL: https://nextcaller.com
-  baseURL: https://api.sandbox.nextcaller.com//
-  tags: Records
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/records/master/_listings/next-caller/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://nexmo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://next.caller.stack.network
 - type: x-authentication
   url: https://nextcaller.com/documentation/#/authentication/curl
 - type: x-blog

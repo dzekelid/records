@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Next Caller
 x-complete: 1
@@ -48,4 +47,3 @@ paths:
       tags:
       - Version
       - Records
----
